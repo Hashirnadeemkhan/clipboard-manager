@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Open dashboard button
   openDashboardBtn.addEventListener("click", () => {
-    window.chrome.tabs.create({ url: "http://localhost:3000" }) // Replace with your actual dashboard URL
+    window.chrome.tabs.create({ url: "https://clipboard-manager-pi.vercel.app/" }) // Replace with your actual dashboard URL
   })
 
   // Initial render
